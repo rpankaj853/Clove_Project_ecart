@@ -1,0 +1,48 @@
+ .font {
+     font-family: 'Russo One', sans-serif;
+ }
+
+ a:hover {
+     text-decoration: none;
+     color: white;
+ }
+
+ .bor {
+
+     border: 3px #40d5ff solid;
+     border-radius: 15px;
+ }
+
+ .touch {
+     color: #40d5ff;
+ }
+
+ .touch:hover,
+ .touchp {
+     background-color: #40d5ff;
+     margin-top: 5px;
+     color: white;
+ }
+
+ .strip {
+     background-color: #08a2d1;
+ }
+
+ .has-search .form-control {
+     padding-left: 2.375rem;
+ }
+
+ .has-search .form-control-feedback {
+     position: absolute;
+     z-index: 2;
+     display: block;
+     width: 2.375rem;
+     height: 2.375rem;
+     line-height: 2.375rem;
+     text-align: center;
+     pointer-events: none;
+     color: #aaa;
+     background-color: #11b7e9;
+     color: black;
+
+ }

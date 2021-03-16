@@ -1,0 +1,53 @@
+ .font {
+            font-family: 'Russo One', sans-serif;
+        }
+
+        a:hover {
+            text-decoration: none;
+        }
+
+        .bor {
+
+            border: 3px #40d5ff solid;
+            border-radius: 15px;
+        }
+
+        .bor1 {
+
+            border: 5px #40d5ff solid;
+            border-radius: 15px;
+        }
+
+        .rev {
+            margin-bottom: -10px;
+        }
+
+        .has-search .form-control {
+            padding-left: 2.375rem;
+        }
+
+        .has-search .form-control-feedback {
+            position: absolute;
+            z-index: 2;
+            display: block;
+            width: 2.375rem;
+            height: 2.375rem;
+            line-height: 2.375rem;
+            text-align: center;
+            pointer-events: none;
+            color: #aaa;
+            background-color:#11b7e9;
+            color: black;
+           
+        }
+@media only screen and (max-width: 800px) {
+  .rev {
+            margin-bottom: -10px;
+            width: 500px;
+     
+        }
+    .rem{
+        
+        display: none;
+    }
+}
